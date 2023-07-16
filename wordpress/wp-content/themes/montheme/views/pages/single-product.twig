@@ -1,0 +1,11 @@
+{% extends "base.twig" %}
+
+{% block title %}Page de produit
+{% endblock %}
+
+{% block content %}
+	<pre>{{ dump(post) }}</pre>
+	{{ post.title }}
+	{{ post.content }}
+
+{% endblock %}

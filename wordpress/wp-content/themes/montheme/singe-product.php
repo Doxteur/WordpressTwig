@@ -4,6 +4,4 @@ use Timber\Timber;
 
 $context['post'] = Timber::get_post();
 
-\Timber\Timber::render('pages/single-product.twig', $context);
-
-?>
+Timber::render('pages/base.twig', $context);
